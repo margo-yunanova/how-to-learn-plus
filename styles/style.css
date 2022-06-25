@@ -161,3 +161,22 @@
   font-size: 18px;
   padding-top: 20px;
 }
+
+.kaufman {
+  background-color: black;
+  color: white;
+}
+
+.section-title_theme_dark {
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+
+.table_theme_dark {
+  padding-bottom: 90px;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  padding-top: 80px;
+}
