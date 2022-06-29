@@ -13,27 +13,63 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* background-color: #f2f2f2; */
-  /* выше установили ограничения для секции */
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  top: 64px; right: 0;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+.logo_place_header {
+  position: absolute;
+  top: 30px; left: 64px;
+  height: 32px;
+  width: 228px;
+}
+
+.header__title {
+  width: 730px;
+  z-index: 3;
+  padding-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 700px;
+}
+
+.header__subtitle {
+  position: absolute;
+  bottom: 30px; left: 64px;
+  width: 388px;
+  z-index: 3;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__main-illustration {
+  position: absolute;
+  bottom: 0; right: 0;
+  width: 765px;
+  height: 608px;
+  z-index: 2;
+}
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
 }
-
-/* .description {
-
-} */
 
 .two-columns {
   display: flex;
@@ -57,7 +93,6 @@
 .two-columns__paragraph {
   margin: 0;
  }
-
 
 .two-columns__paragraph {
   margin: 0;
@@ -186,9 +221,14 @@
   padding-top: 80px;
   padding-bottom: 217px;
   margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .resources__link {
   width: 270px;
   height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
