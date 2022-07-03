@@ -1,0 +1,16 @@
+.video__iframes {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  position: relative;
+  z-index: 3;
+  margin-bottom: -50px;
+}
+
+.video__iframe {
+  border: none;
+}
+
+.video__iframe:not(:first-child) {
+  padding-left: 20px;
+}
