@@ -71,6 +71,11 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+  transition: 0.5s linear;
+}
+
+.header__link:hover {
+  opacity: 0.5;
 }
 
 .header__main-illustration {
@@ -267,6 +272,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.5s linear;
+}
+
+.resources__link:hover {
+  opacity: 0.5;
 }
 
 .footer {
@@ -329,6 +339,11 @@
   text-decoration: none;
   line-height: 18px;
   font-size: 18px;
+  transition: 0.5s linear;
+}
+
+.footer__column-link:hover {
+  opacity: 0.5;
 }
 
 /* .footer__column_content_social .footer__column-links */
@@ -397,6 +412,11 @@
   right: 48px;
   text-decoration: none;
   color: #2f80ed;
+  transition: 0.5s linear;
+}
+
+.feynman__link:hover {
+  opacity: 0.5;
 }
 
 .khan {
@@ -462,12 +482,9 @@
   color: #2f80ed;
   line-height: 42px;
   font-size: 30px;
-}
-
-a {
   transition: 0.5s linear;
 }
 
-a:hover {
+.khan__buy-link:hover {
   opacity: 0.5;
 }
