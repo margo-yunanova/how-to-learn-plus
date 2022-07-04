@@ -1,5 +1,9 @@
+/* использована flat схема для организации файловой структуры проекта */
+
 @import url(./styles/normalize.css);
 @import url(./styles/fonts.css);
+
+@import url(./blocks/rotation.css);
 
 @import url(./blocks/header.css);
 @import url(./blocks/logo.css);
@@ -26,20 +30,6 @@
 @import url(./blocks/resources.css);
 
 @import url(./blocks/footer.css);
-
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.rotation {
-  animation: rotate 20s infinite linear;
-}
 
 .page {
   min-width: 1100px;

@@ -1,6 +1,6 @@
 .footer {
-  background-color: black;
-  color: white;
+  background-color: #1f1f1f;
+  color: #ffffff;
   padding-top: 60px;
   padding-bottom: 40px;
 }
@@ -27,12 +27,6 @@
   font-size: 18px;
 }
 
-.footer__social-icon {
-  width: 16px;
-  height: 16px;
-  vertical-align: baseline;
-}
-
 .footer__column-heading {
   margin: 0;
   padding-bottom: 20px;
@@ -48,7 +42,7 @@
 }
 
 .footer__column-link {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   line-height: 18px;
   font-size: 18px;
@@ -62,4 +56,10 @@
 /* .footer__column_content_social .footer__column-links */
 .footer__column-link:not(:first-child) {
   padding-top: 10px;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: baseline;
 }
