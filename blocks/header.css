@@ -47,6 +47,7 @@
   width: 765px;
   height: 608px;
   z-index: 2;
+  object-fit: cover;
 }
 
 .header__square-pic {
