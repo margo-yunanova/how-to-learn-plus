@@ -1,0 +1,9 @@
+﻿.two-columns__paragraph {
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+}
+
+.two-columns__paragraph:not(:first-child) {
+  padding-top: 30px;
+}
